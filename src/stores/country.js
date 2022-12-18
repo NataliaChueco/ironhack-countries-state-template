@@ -1,7 +1,14 @@
 import { defineStore } from "pinia";
 
 export const useCountryStore = defineStore("country", {
-  state: () => {
-    return {};
-  },
+  state: () => ({
+    country:"",
+    flag: "",
+    capital:"",
+    area: "",
+    borders: []
+  }),
+  actions:{
+
+  }
 });
